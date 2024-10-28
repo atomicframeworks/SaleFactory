@@ -551,7 +551,7 @@ contract SaleFactory is Ownable, ReentrancyGuard {
     }
 
     /**
-     * @notice Set the ending date for the sale
+     * @notice Updates the ending date for the sale
      * @param  _saleIndex: The index of the sale to adjust
      * @param  _endDate: unix timestamp for the end date
      */
